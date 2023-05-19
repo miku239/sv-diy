@@ -1,0 +1,28 @@
+{
+    "version" : "1",
+    "prompt" : "template",
+    "title" : "请注意！",
+    "message" : "应用的正常运行需要您的设备信息，浏览您的相册、文件以导入图片，请注意授予权限。<br/>应用所用游戏素材版权归Cygames所有，请勿用于商业用途。如果您同意，请点击下面按钮开始DIY之旅吧。",
+    "buttonAccept" : "同意并接受",
+    "buttonRefuse" : "暂不同意",
+    "hrefLoader" : "system|default",
+    "backToExit" : "false",
+    "disagreeMode" : {
+        "support" : false,
+        "loadNativePlugins" : false,
+        "showAlways" : false
+    },
+    "styles" : {
+        "backgroundColor" : "#ffffff",
+        "borderRadius" : "5px",
+        "title" : {
+            "color" : "#000000"
+        },
+        "buttonAccept" : {
+            "color" : "#000000"
+        },
+        "buttonRefuse" : {
+            "color" : "#000000"
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "影之诗卡牌制作工具",
+				"navigationBarBackgroundColor": "transparent",
+				"usingComponents": {
+					"editor": "dynamicLib://editorLib/editor"
+				}
+			}
+		},
+		{
+			"path": "pages/data/data",
+			"style": {
+				"navigationBarTitleText": "卡牌数据管理",
+				"navigationBarBackgroundColor": "transparent",
+				"usingComponents": {
+					"editor": "dynamicLib://editorLib/editor"
+				}
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationStyle": "default",
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "影之诗卡牌制作工具"
+	},
+	"uniIdRouter": {}
+}

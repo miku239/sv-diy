@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'DFWeiBeiW7-GB';
+    src: url('DFWeiBeiW7-GB.woff2') format('woff2'),
+        url('DFWeiBeiW7-GB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

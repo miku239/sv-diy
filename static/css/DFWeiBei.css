@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'DFPWeiBei-B5';
+    src: url('DFWeiBei-Md-HKP-BF.woff2') format('woff2'),
+        url('DFWeiBei-Md-HKP-BF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

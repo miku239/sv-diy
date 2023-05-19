@@ -1,0 +1,35 @@
+.data-collapse{
+	height: auto;
+}
+.data-item{
+	width: 96%;
+	height: 80rpx;
+	border-top: 0.5px solid rgba(0,0,0,0.1);
+	background-color: rgba(184, 184, 184, 0.1);
+	padding: 2% 5% 2% 5%;
+	font-size: 27rpx;
+	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.data-item button{
+	height: 60rpx;
+	display: flex;
+	align-items: center;
+	margin: 0;
+}
+
+.data-item span{
+	color: cornflowerblue;
+	border-bottom: 1px dashed #6495ed;
+}
+
+.data-item button::after{
+	border: none;
+}
+.build-in{
+	color: gray !important;
+	border-bottom: none !important;
+}

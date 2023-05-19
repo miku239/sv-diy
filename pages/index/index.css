@@ -1,0 +1,390 @@
+.content {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.main-view{
+		background-color: rgba(255, 255, 255,0.4);
+	}
+	
+	.main-view::before{
+		content: "";
+		position: absolute;
+		top: 0;
+		height: 100%;
+		width: 100%;
+		background-image: url("/static/ui/top_bg.jpg");
+	}
+	.main-view::before{
+		content: "";
+		position: absolute;
+		top: 0;
+		height: 100%;
+		width: 100%;
+		background-color: rgba(255, 255, 255,0.4);
+	}
+
+	.logo {
+		height: 200rpx;
+		width: 200rpx;
+		/* 		margin-top: 200rpx;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 50rpx; */
+	}
+
+	.text-area {
+		display: flex;
+		justify-content: center;
+	}
+
+	.title {
+		font-size: 36rpx;
+		color: #8f8f94;
+	}
+
+	.card {
+		height: 698rpx;
+		width: 536rpx;
+		position: relative;
+		display: flex;
+		justify-content: center;
+		margin-top: 8%;
+	}
+
+	.card-border {
+		height: 698rpx;
+		width: 536rpx;
+		position: absolute;
+		left: 0;
+		top: 0;
+		pointer-events: none;
+		/* visibility:; */
+	}
+
+	.card-info-panel {
+		margin-left: -100rpx;
+		margin-top: -50rpx;
+		height: 698rpx;
+		width: 690rpx;
+		position: absolute;
+		left: 0;
+		top: 0;
+		pointer-events: none;
+		/* font-family: STFangsong; */
+		font-family: Garamond;
+	}
+	.card-info-panel-name{
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-end;
+		margin-top: 47rpx;
+		margin-left: 3%;
+		
+	}
+
+	.card-info-text {
+		height: 698rpx;
+		width: 536rpx;
+		position: absolute;
+		left: 0;
+		top: 0;
+		pointer-events: none;
+		/* font-family: STFangsong; */
+		font-family: Garamond;
+	}
+
+	.card-info-name {
+		display: flex;
+		justify-content: center;
+		margin-top: 47rpx;
+		/* margin-left: 3%; */
+		height: 108rpx;
+		width: 100%;
+		line-height: 3rem;
+		font-size: 34rpx;
+		/* font-weight: 600; */
+		color: white;
+		text-shadow: 0 2rpx black;
+		font-family: 'DFWeiBeiW7-GB';
+
+		/* letter-spacing: -11rpx; */
+	}
+
+	.card-info-mana {
+		display: flex;
+		justify-content: center;
+		margin-top: 55rpx;
+		margin-left: 13rpx;
+		height: 108rpx;
+		width: 84rpx;
+		line-height: 3rem;
+		font-size: 104rpx;
+		font-weight: bold;
+		color: white;
+		text-shadow: 0 2rpx black;
+
+		letter-spacing: -11rpx;
+		font-family: Garamond;
+	}
+
+	.card-info-attack {
+		display: flex;
+		justify-content: center;
+		margin-top: 595rpx;
+		margin-left: 27rpx;
+		height: 69rpx;
+		width: 71rpx;
+		line-height: 2rem;
+		font-size: 90rpx;
+		/* font-weight: 600; */
+		color: white;
+		text-shadow: 0 5rpx black;
+		letter-spacing: -11rpx;
+		/* -webkit-text-stroke: 0.001rpx black; */
+	}
+
+	.card-info-hp {
+		display: flex;
+		justify-content: center;
+		margin-top: 595rpx;
+		margin-left: 427rpx;
+		height: 69rpx;
+		width: 71rpx;
+		line-height: 2rem;
+		font-size: 90rpx;
+		/* font-weight: 600; */
+		color: white;
+		text-shadow: 0 5rpx black;
+		letter-spacing: -11rpx;
+	}
+
+	.card-image-content {
+		height: 505rpx;
+		width: 410rpx;
+		background-color: #8f8f94;
+		overflow: hidden;
+		margin-top: 130rpx;
+		/* position: relative; */
+	}
+
+	.card-image-view {
+		height: 757rpx;
+		width: 615rpx;
+	}
+
+	.card-image {
+		/* 		height: 17.8125rem;
+		width: 13.75rem; */
+		height: 100%;
+		width: 100%;
+	}
+
+	.ql-container {
+		border-bottom: 1rpx #dcdcdc solid;
+		width: 500rpx;
+		margin-bottom: 5%;
+	}
+
+	/* 详细输出样式,待做简单输出样式即仅卡面 */
+	.card-output {
+		height: 698px;
+		width: 1212px;
+	}
+
+	.card-output-simple {
+		height: 698px;
+		width: 536px;
+	}
+
+	.opt-panel {
+		width: 30%;
+	}
+
+	.opt-panel-1 {
+		width: 100%;
+		margin-left: 0%;
+		margin-top: 8%;
+		margin-bottom: 5%;
+		display: flex;
+		justify-content: space-around;
+		align-items: flex-start;
+	}
+
+	.opt-panel-2 {
+		margin-top: 8%;
+		width: 30%;
+		margin-left: 35%;
+		margin-bottom: 5%;
+	}
+	
+	/* 调整卡牌名大小的区域 */
+	.adjust-button-group{
+		margin-top: 20rpx;
+		font-size: 45rpx;
+		line-height: 45rpx;
+		display: flex;
+		
+		justify-content: center;
+		align-items: center;
+	}
+	.adjust-button-item{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: 15rpx 0;
+		color: white;
+		background-color: rgb(94,109,130);
+		border: 0px solid rgba(0, 0, 0, 0.7);
+		border-radius: 35rpx;
+		height: 70rpx;
+		width: 70rpx;
+		line-height: 60rpx;
+		font-size: 60rpx;
+		pointer-events: all;
+		
+	}
+
+	/* 基本信息按钮 */
+	.baseinfo-button {
+		/* padding: 10px; */
+		width: 100%;
+		padding: 0;
+	}
+
+	.scroll-view {
+		/* #ifndef APP-NVUE */
+		/* width: 100%; */
+		height: 100%;
+		/* #endif */
+		flex: 1
+	}
+
+	/* 处理抽屉内容滚动 */
+	.scroll-view-box {
+		flex: 1;
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+	}
+
+	.close {
+		padding: 10px;
+	}
+
+	.uni-common-mt {
+		margin-top: 10rpx;
+	}
+
+	.uni-padding-wrap {
+		width: 550rpx;
+		padding: 0rpx 30rpx;
+	}
+
+	.content-c {
+		/* #ifndef APP-NVUE */
+		/* display: flex; */
+		/* #endif */
+		justify-content: center;
+		align-items: center;
+		height: 150px;
+		text-align: center;
+	}
+
+	.content-text {
+		font-size: 14px;
+		color: #666;
+	}
+
+	.card-descr {
+		margin-top: 3%;
+	}
+	
+	.round-button{
+		color: white;
+		font-size: 35rpx;
+		line-height: 40rpx;
+		width: 200rpx;
+		height: 200rpx;
+		/* font-family: STFangsong; */
+		font-family: STFangsong;
+		font-weight: 800;
+		background-image: url("/static/ui/button-round.png");
+		background-size: 100%;
+		background-repeat: no-repeat;
+		border-radius: 50%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.button-blue {
+		color: black;
+		font-size: 30rpx;
+		background: rgba(95, 117, 189,0.2);
+		width: 200rpx;
+		height: 200rpx;
+		border-radius: 50%;
+		box-shadow: -28rpx -16rpx 120rpx #3c2ef7 inset,
+			0 0 4rpx #4a91d4,
+			6rpx 2rpx 8rpx #444;
+		
+		
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.button-yellow{
+		color: black;
+		font-size: 30rpx;
+		background: rgba(221, 235, 59, 0.2);
+		width: 200rpx;
+		height: 200rpx;
+		border-radius: 50%;
+		box-shadow: -28rpx -16rpx 120rpx #eade35 inset,
+			0 0 4rpx #c1d417,
+			6rpx 2rpx 8rpx #444;
+		
+		
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.input-area{
+		border: 0.2rpx solid rgba(0, 0, 0, 0.2);
+		border-radius: 3%;
+		padding: 10rpx;
+		/* box-shadow: 0rpx 0rpx 18rpx #cacaca inset; */
+	}
+	
+	.text-green{
+		/* width: 150rpx; */
+		height: 60rpx;
+		/* border: 1px solid; */
+		/* border-radius: 37.5rpx; */
+		display: flex;
+		justify-content: center;
+		/* background-color: #409eff; */
+		color: black;
+		align-items: center;
+		/* float: left; */
+	}
+	.text-green:active{
+		/* background-color: #3483d1; */
+	}
+	.button-groups-top{
+		display: flex;
+		justify-content: space-between;
+		margin: 0;
+		padding: 0 7%;
+	}
+	.button-groups-top button{
+		margin: 0;
+		background-color: transparent;
+		border: 0;
+	}
